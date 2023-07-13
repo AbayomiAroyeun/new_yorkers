@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New Yorkers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <!-- <! # is used to remove the default bullet on li> -->
+            <li><a href="#Contact Us">Contact</a>
+            <li><a href="#About Us">About</a>
+            <li><a href="#Our Testimonies">News</a>
+            <li><a class="active" href="#Home">Home</a>
+        </div>
+        <div id="contentwrapper">
+            <div id="contentcolumn">
+                <div class="innertext">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div id="leftcolumn">
+            <div class="innertext">
+                <h1 id="About Us">About Us</h1>
+                 <p>We are New York based shipping agents withing the Boroughs of New York City.<br/>
+                    We cover the following boroughs: </p><br/>
+                    
+                        <strong>Queens</strong><br/>
+                        <strong>Bronx</strong><br/>
+                        <strong>Manhattan</strong><br/>
+                        <strong>Brooklyn</strong><br/>
+                        <strong>Staten Island</strong><br/>              
+                <p>Get your cargo delivered within One hour of depositing it with us. Yes One hour!<br/>
+                    Monday - Saturday. A trial will convince you. Check our testimonies in our News section.
+                </p>
+                    <h1 id="Our Testimonies">News</h1>
+                        <p>Our Testimonies<br/>
+                            First I doubted these people when I wanted to Ship my SUV<br/>
+                            from Queens to Staten Island to avoid additional mileage on<br/>
+                            my car.Later I decided to give it a trial. Men, these guys<br/>
+                            are super fast! And it is cheap.(N.B: <em>A trial test!</em>)
+                        </p>
+                    <h1 id="Contact Us">Contact Us</h1> 
+                    <form id="contact-form" action="submit-form.php" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                      
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                      
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your Message" required></textarea>
+                      
+                        <input type="submit" value="Submit">
+                      </form>
+                                        
+            </div>
+        </div>
+        <div id="rightcolumn">
+                <div id="innertext">
+                    <div id="fade-in">Register to move and Shine with us</div>
+                </div>
+                <form class="innertext" name="customer" action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                  
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                  
+                    <input type="submit" value="Submit">
+                  </form>
+                  
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
